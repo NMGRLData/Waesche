@@ -6,10 +6,32 @@
         "value": 1.0
     },
     "H1": {
-        "error": 1e-20,
-        "fit": "default",
-        "references": [],
-        "value": 1.0
+        "error": 0.0001637219437118358,
+        "fit": "Bracketing Interpolate",
+        "references": [
+            {
+                "exclude": "ok",
+                "record_id": "c-03-F-116",
+                "uuid": "eba19309-8bc3-4952-85ea-57b196ff3c7f"
+            },
+            {
+                "exclude": "ok",
+                "record_id": "c-03-F-117",
+                "uuid": "b3a6f12e-30ae-4c4d-b85d-6f836aaa4fc5"
+            },
+            {
+                "exclude": "ok",
+                "record_id": "c-03-F-118",
+                "uuid": "77d333c0-10a6-4db7-a3c2-6c175c9c38a6"
+            },
+            {
+                "exclude": "ok",
+                "record_id": "c-03-F-119",
+                "uuid": "ff3ef47e-8b0e-45db-9815-3b1bb948f93c"
+            }
+        ],
+        "reviewed": true,
+        "value": 0.996247856451853
     },
     "H2": {
         "error": 1e-20,
