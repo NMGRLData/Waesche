@@ -6,10 +6,42 @@
         "value": 1.0
     },
     "H1": {
-        "error": 1e-20,
-        "fit": "default",
-        "references": [],
-        "value": 1.0
+        "error": 0.0002765377684752946,
+        "fit": "Bracketing Interpolate",
+        "references": [
+            {
+                "exclude": "ok",
+                "record_id": "c-03-F-376",
+                "uuid": "81a2f406-7b0b-4ca0-b630-6a34e962e224"
+            },
+            {
+                "exclude": "ok",
+                "record_id": "c-03-F-377",
+                "uuid": "c4394fee-6cfa-451e-bfeb-2ce3aa1b9833"
+            },
+            {
+                "exclude": "ok",
+                "record_id": "c-03-F-378",
+                "uuid": "a4a0c15f-4486-4c85-9ad3-afe147436967"
+            },
+            {
+                "exclude": "ok",
+                "record_id": "c-03-F-379",
+                "uuid": "9cf08e56-ce68-4cec-9794-3947a36337f6"
+            },
+            {
+                "exclude": "ok",
+                "record_id": "c-03-F-380",
+                "uuid": "c828cb00-5237-48db-a990-24e2315c46bc"
+            },
+            {
+                "exclude": "ok",
+                "record_id": "c-03-F-381",
+                "uuid": "53f1885c-b0cb-4012-b9d2-6364be0e1546"
+            }
+        ],
+        "reviewed": true,
+        "value": 1.0071198232395016
     },
     "H2": {
         "error": 1e-20,
