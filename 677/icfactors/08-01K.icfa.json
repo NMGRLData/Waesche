@@ -24,9 +24,61 @@
         "value": 1.0
     },
     "L2(CDD)": {
-        "error": 1e-20,
-        "fit": "default",
-        "references": [],
-        "value": 1.0
+        "error": 0.0007618667520907029,
+        "fit": "Weighted Mean",
+        "references": [
+            {
+                "exclude": "omit",
+                "record_id": "a-02-F-2571",
+                "uuid": "8b755d02-edeb-49ac-a161-d8e5f64c2aed"
+            },
+            {
+                "exclude": "omit",
+                "record_id": "a-02-F-2572",
+                "uuid": "5c133eab-5158-4ec3-9429-2bbc506d55cb"
+            },
+            {
+                "exclude": "ok",
+                "record_id": "a-02-F-2573",
+                "uuid": "eef3c90f-f334-465a-866f-b25942575b14"
+            },
+            {
+                "exclude": "ok",
+                "record_id": "a-02-F-2574",
+                "uuid": "de12c70a-101e-44dc-bb97-4bdf347a4f98"
+            },
+            {
+                "exclude": "ok",
+                "record_id": "a-02-F-2575",
+                "uuid": "182ce46f-d220-4c36-b4d2-4b91c025b25b"
+            },
+            {
+                "exclude": "omit",
+                "record_id": "a-02-F-2576",
+                "uuid": "a1224881-b301-42d2-a67b-e4423cdda97a"
+            },
+            {
+                "exclude": "ok",
+                "record_id": "a-02-F-2577",
+                "uuid": "ad92e14f-d1ac-4ca1-90c6-492837dd286a"
+            },
+            {
+                "exclude": "ok",
+                "record_id": "a-02-F-2578",
+                "uuid": "ab247741-0c9b-4452-bd91-f5fd41ea52d2"
+            },
+            {
+                "exclude": "ok",
+                "record_id": "a-02-F-2579",
+                "uuid": "c783c500-d1b8-48db-a31d-5411a9e020ca"
+            },
+            {
+                "exclude": "ok",
+                "record_id": "a-02-F-2580",
+                "uuid": "0283fd6c-1afb-4eec-b49d-0f5b8b410bc0"
+            }
+        ],
+        "reviewed": true,
+        "value": 1.031670691881725
     }
 }
