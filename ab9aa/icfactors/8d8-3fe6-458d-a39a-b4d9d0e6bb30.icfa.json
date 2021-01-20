@@ -24,9 +24,61 @@
         "value": 1.0
     },
     "L2(CDD)": {
-        "error": 1e-20,
-        "fit": "default",
-        "references": [],
-        "value": 1.0
+        "error": 0.0012085513549151205,
+        "fit": "Weighted Mean",
+        "references": [
+            {
+                "exclude": "ok",
+                "record_id": "a-03-F-331",
+                "uuid": "e4bb4e78-8bbc-4dea-8194-a1bfaab768e7"
+            },
+            {
+                "exclude": "ok",
+                "record_id": "a-03-F-332",
+                "uuid": "a5ce4f3e-efc8-4569-aefd-1f312d1f2fcd"
+            },
+            {
+                "exclude": "ok",
+                "record_id": "a-03-F-333",
+                "uuid": "75394cbb-bcf5-4915-9221-af9d0f1a4ff9"
+            },
+            {
+                "exclude": "ok",
+                "record_id": "a-03-F-334",
+                "uuid": "cfacc462-17e0-4df8-940b-52df237e6c3e"
+            },
+            {
+                "exclude": "ok",
+                "record_id": "a-03-F-335",
+                "uuid": "c58cef3b-e2a4-4a1c-8a47-37520b0e083b"
+            },
+            {
+                "exclude": "ok",
+                "record_id": "a-03-F-336",
+                "uuid": "2351a361-730e-4347-b48b-7862e95856d8"
+            },
+            {
+                "exclude": "ok",
+                "record_id": "a-03-F-337",
+                "uuid": "019ec396-3b01-4b72-8207-96858f43fad4"
+            },
+            {
+                "exclude": "ok",
+                "record_id": "a-03-F-338",
+                "uuid": "00195009-d4f3-4055-b251-6758a5b9367b"
+            },
+            {
+                "exclude": "ok",
+                "record_id": "a-03-F-339",
+                "uuid": "f21f6a08-6bef-4621-a01e-7d4d7a9451a8"
+            },
+            {
+                "exclude": "ok",
+                "record_id": "a-03-F-340",
+                "uuid": "49548ce1-f17d-4357-9d34-85f926fbe33a"
+            }
+        ],
+        "reviewed": true,
+        "value": 0.9976542420457101
     }
 }
