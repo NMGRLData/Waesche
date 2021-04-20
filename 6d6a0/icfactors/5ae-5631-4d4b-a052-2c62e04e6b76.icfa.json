@@ -1,9 +1,37 @@
 {
     "AX": {
-        "error": 1e-20,
-        "fit": "default",
-        "references": [],
-        "value": 1.0
+        "error": 0.0001414654075067702,
+        "fit": "Bracketing Interpolate",
+        "references": [
+            {
+                "exclude": "ok",
+                "record_id": "c-03-J-3256",
+                "uuid": "9901c3cc-fd79-4dbe-95e5-d3306d677cf5"
+            },
+            {
+                "exclude": "ok",
+                "record_id": "c-03-J-3257",
+                "uuid": "868d6b0e-7b13-4a9d-bba5-77505b4dad6b"
+            },
+            {
+                "exclude": "ok",
+                "record_id": "c-03-J-3258",
+                "uuid": "4ca8a06a-1794-4f03-8f2d-fb1c4d78f395"
+            },
+            {
+                "exclude": "ok",
+                "record_id": "c-03-J-3259",
+                "uuid": "bf352b3d-224b-4e25-8b62-0ef5c7a08569"
+            },
+            {
+                "exclude": "ok",
+                "record_id": "c-03-J-3260",
+                "uuid": "df53574f-5622-4e3b-a707-c34029004943"
+            }
+        ],
+        "reviewed": true,
+        "standard_ratio": 6.71,
+        "value": 1.0021821542830747
     },
     "CDD": {
         "error": 0.0011159197220263972,
