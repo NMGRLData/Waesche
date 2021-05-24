@@ -1,6 +1,6 @@
 {
     "Ar36": {
-        "error": 0.0013687824306024793,
+        "error": 0.0007443660536221678,
         "error_type": "SEM",
         "filter_outliers_dict": {
             "filter_outliers": true,
@@ -9,7 +9,7 @@
             "use_iqr_filtering": false,
             "use_standard_deviation_filtering": false
         },
-        "fit": "parabolic",
+        "fit": "linear",
         "fn": 338,
         "include_baseline_error": true,
         "n": 340,
@@ -19,7 +19,7 @@
         ],
         "reviewed": true,
         "user_excluded": [],
-        "value": 0.21515990185388137
+        "value": 0.21746628220172365
     },
     "Ar37": {
         "error": 0.01695385768228384,
@@ -64,7 +64,7 @@
         "value": 0.1829426974023815
     },
     "Ar39": {
-        "error": 0.014863536744966082,
+        "error": 0.008226841043080541,
         "error_type": "SEM",
         "filter_outliers_dict": {
             "filter_outliers": true,
@@ -73,19 +73,17 @@
             "use_iqr_filtering": false,
             "use_standard_deviation_filtering": false
         },
-        "fit": "parabolic",
-        "fn": 339,
+        "fit": "linear",
+        "fn": 340,
         "include_baseline_error": true,
         "n": 340,
-        "outlier_excluded": [
-            327
-        ],
+        "outlier_excluded": [],
         "reviewed": true,
         "user_excluded": [],
-        "value": 2.797332024597744
+        "value": 2.8233263404855116
     },
     "Ar40": {
-        "error": 0.03636182332750018,
+        "error": 0.023261323595725115,
         "error_type": "SEM",
         "filter_outliers_dict": {
             "filter_outliers": true,
@@ -94,15 +92,15 @@
             "use_iqr_filtering": false,
             "use_standard_deviation_filtering": false
         },
-        "fit": "parabolic",
+        "fit": "linear",
         "fn": 339,
         "include_baseline_error": true,
         "n": 340,
         "outlier_excluded": [
-            173
+            135
         ],
         "reviewed": true,
         "user_excluded": [],
-        "value": 64.74989275220372
+        "value": 65.10055923488994
     }
 }
