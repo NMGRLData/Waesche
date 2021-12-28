@@ -1,6 +1,6 @@
 {
     "Ar36": {
-        "error": 0.00040166570420191835,
+        "error": 0.0007341113165006815,
         "error_type": "SEM",
         "filter_outliers_dict": {
             "filter_outliers": true,
@@ -9,7 +9,7 @@
             "use_iqr_filtering": false,
             "use_standard_deviation_filtering": false
         },
-        "fit": "linear",
+        "fit": "parabolic",
         "fn": 339,
         "include_baseline_error": false,
         "n": 340,
@@ -18,7 +18,7 @@
         ],
         "reviewed": true,
         "user_excluded": [],
-        "value": 0.06742968845942054
+        "value": 0.06764876441427256
     },
     "Ar37": {
         "error": 0.015772698315222666,
@@ -40,7 +40,7 @@
         "value": 2.2284023522865013
     },
     "Ar38": {
-        "error": 0.005834002938503596,
+        "error": 0.005834002938503594,
         "error_type": "SEM",
         "filter_outliers_dict": {
             "filter_outliers": true,
@@ -58,10 +58,10 @@
         ],
         "reviewed": true,
         "user_excluded": [],
-        "value": 0.34512057826060233
+        "value": 0.34512057826060216
     },
     "Ar39": {
-        "error": 0.008325495976898009,
+        "error": 0.01527395526357572,
         "error_type": "SEM",
         "filter_outliers_dict": {
             "filter_outliers": true,
@@ -70,7 +70,7 @@
             "use_iqr_filtering": false,
             "use_standard_deviation_filtering": false
         },
-        "fit": "linear",
+        "fit": "parabolic",
         "fn": 338,
         "include_baseline_error": false,
         "n": 340,
@@ -80,10 +80,10 @@
         ],
         "reviewed": true,
         "user_excluded": [],
-        "value": 13.284391391997396
+        "value": 13.28576998204314
     },
     "Ar40": {
-        "error": 0.030861328531237995,
+        "error": 0.030861328531236534,
         "error_type": "SEM",
         "filter_outliers_dict": {
             "filter_outliers": true,
@@ -102,6 +102,6 @@
         ],
         "reviewed": true,
         "user_excluded": [],
-        "value": 23.517382131358936
+        "value": 23.517382131358968
     }
 }

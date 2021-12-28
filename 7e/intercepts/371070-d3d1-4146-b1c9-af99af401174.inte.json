@@ -1,6 +1,6 @@
 {
     "Ar36": {
-        "error": 0.0010337450739574111,
+        "error": 0.001890488731058278,
         "error_type": "SEM",
         "filter_outliers_dict": {
             "filter_outliers": true,
@@ -9,7 +9,7 @@
             "use_iqr_filtering": false,
             "use_standard_deviation_filtering": false
         },
-        "fit": "linear",
+        "fit": "parabolic",
         "fn": 339,
         "include_baseline_error": false,
         "n": 340,
@@ -18,10 +18,10 @@
         ],
         "reviewed": true,
         "user_excluded": [],
-        "value": 0.41537530134018996
+        "value": 0.4150052182941295
     },
     "Ar37": {
-        "error": 0.015229933791673205,
+        "error": 0.015229933791673202,
         "error_type": "SEM",
         "filter_outliers_dict": {
             "filter_outliers": true,
@@ -40,10 +40,10 @@
         ],
         "reviewed": true,
         "user_excluded": [],
-        "value": 4.301101131157387
+        "value": 4.301101131157392
     },
     "Ar38": {
-        "error": 0.006036249927207747,
+        "error": 0.006036249927207749,
         "error_type": "SEM",
         "filter_outliers_dict": {
             "filter_outliers": true,
@@ -59,10 +59,10 @@
         "outlier_excluded": [],
         "reviewed": true,
         "user_excluded": [],
-        "value": 5.320083523231602
+        "value": 5.320083523231601
     },
     "Ar39": {
-        "error": 0.018529680633122998,
+        "error": 0.01852968063312066,
         "error_type": "SEM",
         "filter_outliers_dict": {
             "filter_outliers": true,
@@ -80,10 +80,10 @@
         ],
         "reviewed": true,
         "user_excluded": [],
-        "value": 53.80496758156046
+        "value": 53.804967581560454
     },
     "Ar40": {
-        "error": 0.02132117125532148,
+        "error": 0.03898272813701362,
         "error_type": "SEM",
         "filter_outliers_dict": {
             "filter_outliers": true,
@@ -92,7 +92,7 @@
             "use_iqr_filtering": false,
             "use_standard_deviation_filtering": false
         },
-        "fit": "linear",
+        "fit": "parabolic",
         "fn": 338,
         "include_baseline_error": false,
         "n": 340,
@@ -102,6 +102,6 @@
         ],
         "reviewed": true,
         "user_excluded": [],
-        "value": 148.3059908719357
+        "value": 148.28655053622919
     }
 }
