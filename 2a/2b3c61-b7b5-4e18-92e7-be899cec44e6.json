@@ -1,0 +1,189 @@
+{
+    "acquisition_software": "pychron 20.1.1",
+    "aliquot": 1,
+    "analysis_type": "unknown",
+    "analyst_name": "",
+    "arar_mapping": {
+        "Ar36": "Ar36",
+        "Ar37": "Ar37",
+        "Ar38": "Ar38",
+        "Ar39": "Ar39",
+        "Ar40": "Ar40"
+    },
+    "collection_version": "1.0:2.1",
+    "comment": "C:5 gmc 106.1 mg total (35.6,35.2,35.3)",
+    "commit": "2a036a8ad3a77bb6bebecf871d30ba00a9d6d3f2",
+    "conditionals": [
+        {
+            "analysis_types": [],
+            "frequency": 10,
+            "hash_id": -6723198065049465810,
+            "level": 10,
+            "location": "setupfiles/spectrometer/default_conditionals.yaml",
+            "ntrips": 1,
+            "start_count": 5,
+            "teststr": "L2(CDD).deflection==3250"
+        }
+    ],
+    "data_reduction_software": "pychron 20.1.1",
+    "detectors": {
+        "AX": {
+            "deflection": 0.0,
+            "gain": 0.01185
+        },
+        "H1": {
+            "deflection": 0.0,
+            "gain": 0.10263
+        },
+        "H2": {
+            "deflection": 0.0,
+            "gain": 1.0
+        },
+        "L1": {
+            "deflection": 0.0,
+            "gain": 0.9831
+        },
+        "L2(CDD)": {
+            "deflection": 0.0,
+            "gain": 0.0
+        }
+    },
+    "environmental": {
+        "lab_humiditys": [
+            {
+                "device": "EnvironmentalMonitor",
+                "name": "Lab Hum.",
+                "pub_date": "2022-01-05T09:13:09",
+                "title": "iServer Hum.",
+                "value": 15.5
+            }
+        ],
+        "lab_pneumatics": [
+            {
+                "device": "AirPressure",
+                "name": "Pressure",
+                "pub_date": "2022-01-05T15:51:56",
+                "title": "Building",
+                "value": 100.1
+            },
+            {
+                "device": "AirPressure2",
+                "name": "Pressure2",
+                "pub_date": "2022-01-05T16:32:10",
+                "title": "Lab",
+                "value": 101.3
+            },
+            {
+                "device": "MicroBoneGaugeController",
+                "name": "JanDecabinPressure",
+                "pub_date": "2022-01-05T17:41:04",
+                "title": "Jan Decabin",
+                "value": 2.3
+            }
+        ],
+        "lab_temperatures": [
+            {
+                "device": "Coldfinger",
+                "name": "ColdFinger Temp.",
+                "pub_date": "2022-01-05T17:43:13",
+                "title": "Cold Finger",
+                "value": -20.0
+            },
+            {
+                "device": "EnvironmentalMonitor",
+                "name": "Lab Temp.",
+                "pub_date": "2022-01-05T17:07:10",
+                "title": "iServer Temp.",
+                "value": 70.8
+            },
+            {
+                "device": "Chiller",
+                "name": "Coolant Temp.",
+                "pub_date": "2022-01-05T17:41:59",
+                "title": "Coolant",
+                "value": 16.0
+            },
+            {
+                "device": "JanMonitor",
+                "name": "JanDecabinTemp",
+                "pub_date": "2022-01-05T13:46:24",
+                "title": null,
+                "value": 35.4139194139194
+            }
+        ]
+    },
+    "experiment_queue_name": "CurrentExperiment",
+    "experiment_type": "Ar/Ar",
+    "extraction": "felix_diode.py",
+    "grainsize": "32-20",
+    "hops": "",
+    "identifier": "69272",
+    "increment": 6,
+    "instrument_name": "",
+    "intensity_scalar": 0.0,
+    "irradiation": "NM-320",
+    "irradiation_level": "C",
+    "irradiation_position": 5,
+    "isotopes": {
+        "Ar36": {
+            "detector": "L2(CDD)",
+            "name": "Ar36",
+            "serial_id": "00000",
+            "units": "fA"
+        },
+        "Ar37": {
+            "detector": "L1",
+            "name": "Ar37",
+            "serial_id": "00000",
+            "units": "fA"
+        },
+        "Ar38": {
+            "detector": "AX",
+            "name": "Ar38",
+            "serial_id": "00000",
+            "units": "fA"
+        },
+        "Ar39": {
+            "detector": "H1",
+            "name": "Ar39",
+            "serial_id": "00000",
+            "units": "fA"
+        },
+        "Ar40": {
+            "detector": "H2",
+            "name": "Ar40",
+            "serial_id": "00000",
+            "units": "fA"
+        }
+    },
+    "laboratory": "",
+    "latitude": 0.0,
+    "lithology": null,
+    "lithology_class": null,
+    "lithology_group": null,
+    "lithology_type": null,
+    "longitude": 0.0,
+    "mass_spectrometer": "felix",
+    "material": "Groundmass",
+    "measurement": "felix_analysis340_60_CDD_center.py",
+    "note": "",
+    "post_equilibration": "felix_pump_extraction_line.py",
+    "post_measurement": "felix_pump_ms.py",
+    "principal_investigator": "Burrill, C",
+    "project": "Waesche",
+    "queue_conditionals_name": "",
+    "repository_identifier": "Waesche",
+    "rlocation": "",
+    "sample": "MW-098",
+    "source": {
+        "emission": 812.26,
+        "trap": 198.147
+    },
+    "spec_sha": "9611e46d702d1a581bed28e3013de1d300a7178d",
+    "timestamp": "2022-01-05T17:45:32.826279",
+    "tripped_conditional": null,
+    "unit": null,
+    "username": "",
+    "uuid": "2a2b3c61-b7b5-4e18-92e7-be899cec44e6",
+    "whiff_result": null
+}
