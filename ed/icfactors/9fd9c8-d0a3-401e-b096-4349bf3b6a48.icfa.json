@@ -6,10 +6,43 @@
         "value": 1.0
     },
     "H1": {
-        "error": 1e-20,
-        "fit": "default",
-        "references": [],
-        "value": 1.0
+        "error": 0.00027459963140068363,
+        "fit": "Weighted Mean",
+        "references": [
+            {
+                "exclude": "ok",
+                "record_id": "c-03-F-1038",
+                "uuid": "32639575-eb8f-4911-892c-6b5b827a4bfc"
+            },
+            {
+                "exclude": "ok",
+                "record_id": "c-03-F-1039",
+                "uuid": "0c07304f-d296-438d-aafd-f4910f85747d"
+            },
+            {
+                "exclude": "ok",
+                "record_id": "c-03-F-1040",
+                "uuid": "80a92ec7-7410-40cc-be30-d8c265b8ca29"
+            },
+            {
+                "exclude": "ok",
+                "record_id": "c-03-F-1041",
+                "uuid": "21b506b5-9096-4405-b90d-cc4c7ac6a3df"
+            },
+            {
+                "exclude": "ok",
+                "record_id": "c-03-F-1042",
+                "uuid": "bf89bcb8-f60f-4352-b1a5-0d14eb4ce3a8"
+            },
+            {
+                "exclude": "ok",
+                "record_id": "c-03-F-1043",
+                "uuid": "75560429-a650-425b-9608-c1fe0926548c"
+            }
+        ],
+        "reviewed": true,
+        "standard_ratio": 6.71,
+        "value": 1.0139910241938304
     },
     "H2": {
         "error": 1e-20,
@@ -24,9 +57,82 @@
         "value": 1.0
     },
     "L2(CDD)": {
-        "error": 1e-20,
-        "fit": "default",
-        "references": [],
-        "value": 1.0
+        "error": 0.0005149017035818757,
+        "fit": "Weighted Mean",
+        "references": [
+            {
+                "exclude": "ok",
+                "record_id": "a-03-F-1268",
+                "uuid": "d2581d87-82ea-4135-8ffb-9ef7d052190a"
+            },
+            {
+                "exclude": "ok",
+                "record_id": "a-03-F-1269",
+                "uuid": "14fb5094-b0b7-471f-93af-945d450f1c1f"
+            },
+            {
+                "exclude": "ok",
+                "record_id": "a-03-F-1270",
+                "uuid": "d85d85ed-9e63-4ee1-a9b1-f5ed12b31186"
+            },
+            {
+                "exclude": "ok",
+                "record_id": "a-03-F-1271",
+                "uuid": "af24ffbe-fbf3-40dd-b6ab-c6479dcc4b34"
+            },
+            {
+                "exclude": "ok",
+                "record_id": "a-03-F-1272",
+                "uuid": "a566e1cc-2adc-4202-8e94-622af3c76bcb"
+            },
+            {
+                "exclude": "ok",
+                "record_id": "a-03-F-1273",
+                "uuid": "f27e0bf3-e00f-4401-aaca-821841319490"
+            },
+            {
+                "exclude": "ok",
+                "record_id": "a-03-F-1274",
+                "uuid": "ac8837de-6308-4060-8857-aa35916f6bfa"
+            },
+            {
+                "exclude": "ok",
+                "record_id": "a-03-F-1275",
+                "uuid": "d7373c29-7cbe-4564-a2b6-f6f4584bb304"
+            },
+            {
+                "exclude": "ok",
+                "record_id": "a-03-F-1276",
+                "uuid": "e5341108-dfee-4ce1-89d1-856d68aa2930"
+            },
+            {
+                "exclude": "ok",
+                "record_id": "a-03-F-1277",
+                "uuid": "c86707fe-d3e1-4199-b1da-a776f068ef5f"
+            },
+            {
+                "exclude": "ok",
+                "record_id": "a-03-F-1278",
+                "uuid": "77d6046d-702d-4beb-8797-c3d9864b759c"
+            },
+            {
+                "exclude": "ok",
+                "record_id": "a-03-F-1279",
+                "uuid": "bf7aae24-521b-4662-9e9e-63e6e7e591ec"
+            },
+            {
+                "exclude": "ok",
+                "record_id": "a-03-F-1280",
+                "uuid": "58b6666b-4583-43cb-a37a-b06334b0e01c"
+            },
+            {
+                "exclude": "ok",
+                "record_id": "a-03-F-1281",
+                "uuid": "386f85aa-3495-4ff9-9d45-206b780c98fd"
+            }
+        ],
+        "reviewed": true,
+        "standard_ratio": 295.5,
+        "value": 1.0152174818886701
     }
 }
