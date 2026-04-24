@@ -1,0 +1,50 @@
+{
+    "deflections": {
+        "AX": 75.0,
+        "CDD": 275.0,
+        "H1": 0.0,
+        "H2": 0.0,
+        "L1": 150.0,
+        "L2": 300.0
+    },
+    "gains": {
+        "AX": 0.097488627,
+        "CDD": 0.0,
+        "H1": 0.1,
+        "H2": 0.01,
+        "L1": 0.01035,
+        "L2": 0.0101924
+    },
+    "settings": {
+        "deflection": {
+            "AX": 75.0,
+            "CDD": 275.0,
+            "H1": 0.0,
+            "H2": 0.0,
+            "L1": 150.0,
+            "L2": 300.0
+        },
+        "magnet": {
+            "mftable": "mftable"
+        },
+        "source": {
+            "electron_energy": 61.05,
+            "extraction_lens": 42.0,
+            "hv": 3500.0,
+            "ion_repeller": -3.53,
+            "ioncountervoltage": 1605.0,
+            "y_symmetry": 1.05,
+            "z_focus": 89.98,
+            "z_symmetry": -20.05
+        },
+        "trap": {
+            "current": 200.0,
+            "ramp_period": 1.0,
+            "ramp_step": 2.0,
+            "ramp_tolerance": 25.0
+        }
+    },
+    "spectrometer": {
+        "Ion Repeller Set": 0.0
+    }
+}
