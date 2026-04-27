@@ -1,0 +1,132 @@
+{
+    "acquisition_software": "pychron 20.1.1",
+    "aliquot": 1,
+    "analysis_type": "unknown",
+    "analyst_name": "",
+    "arar_mapping": {
+        "Ar36": "Ar36",
+        "Ar37": "Ar37",
+        "Ar38": "Ar38",
+        "Ar39": "Ar39",
+        "Ar40": "Ar40"
+    },
+    "baseline_modifiers": {},
+    "collection_version": "2.0:2.1",
+    "comment": "J:6 / Gms - 60.85 mg",
+    "conditionals": null,
+    "data_collection_commit": "2631dcfbe546883e2d19014072160359ed033f8e",
+    "data_reduction_software": "pychron 20.1.1",
+    "detectors": {
+        "AX": {
+            "deflection": 75.0,
+            "gain": 0.097488627
+        },
+        "CDD": {
+            "deflection": 275.0,
+            "gain": 0.0
+        },
+        "H1": {
+            "deflection": 0.0,
+            "gain": 0.1
+        },
+        "H2": {
+            "deflection": 0.0,
+            "gain": 0.01
+        },
+        "L1": {
+            "deflection": 150.0,
+            "gain": 0.01035
+        },
+        "L2": {
+            "deflection": 300.0,
+            "gain": 0.0101924
+        }
+    },
+    "environmental": {
+        "lab_humiditys": [],
+        "lab_pneumatics": [],
+        "lab_temperatures": []
+    },
+    "experiment_queue_name": "CurrentExperiment",
+    "experiment_type": "Ar/Ar",
+    "extraction": "jan_diode.py",
+    "grainsize": "",
+    "hops": "",
+    "identifier": "72899",
+    "increment": 10,
+    "instrument_name": "",
+    "intensity_scalar": 0.0,
+    "irradiation": "NM-352",
+    "irradiation_level": "J",
+    "irradiation_position": 6,
+    "isotopes": {
+        "Ar36": {
+            "detector": "CDD",
+            "name": "Ar36",
+            "serial_id": "00000",
+            "units": ""
+        },
+        "Ar37": {
+            "detector": "L2",
+            "name": "Ar37",
+            "serial_id": "00000",
+            "units": ""
+        },
+        "Ar38": {
+            "detector": "L1",
+            "name": "Ar38",
+            "serial_id": "00000",
+            "units": ""
+        },
+        "Ar39": {
+            "detector": "AX",
+            "name": "Ar39",
+            "serial_id": "00000",
+            "units": ""
+        },
+        "Ar40": {
+            "detector": "H1",
+            "name": "Ar40",
+            "serial_id": "00000",
+            "units": ""
+        },
+        "Ar41": {
+            "detector": "H2",
+            "name": "Ar41",
+            "serial_id": "00000",
+            "units": ""
+        }
+    },
+    "laboratory": "",
+    "latitude": "",
+    "lithology": "",
+    "lithology_class": "",
+    "lithology_group": "",
+    "lithology_type": "",
+    "longitude": "",
+    "mass_spectrometer": "Jan",
+    "material": "",
+    "measurement": "jan_SyncExt_600_NC.py",
+    "meta_commit": "2fbc586058621b81620e892e6512fcd8bea66c10",
+    "note": "---",
+    "post_equilibration": "jan_pump_extraction_line.py",
+    "post_measurement": "jan_pump_ms.py",
+    "principal_investigator": "",
+    "project": "",
+    "queue_conditionals_name": "",
+    "repository_identifier": "Waesche",
+    "rlocation": "---",
+    "sample": "MWSF1",
+    "source": {
+        "emission": 318.238,
+        "trap": 198.147
+    },
+    "spec_sha": "8c677db069a4541adbab2958c29757b75853d094",
+    "time_zero_timestamp": "2026-04-27T13:24:54.006661",
+    "timestamp": "2026-04-27T13:29:01.164119",
+    "tripped_conditional": null,
+    "unit": "---",
+    "username": "",
+    "uuid": "126b4c60-4c6c-4408-b162-b18751c3ff11",
+    "whiff_result": null
+}
