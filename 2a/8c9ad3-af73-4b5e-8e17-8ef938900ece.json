@@ -1,0 +1,341 @@
+{
+    "acquisition_software": "pychron 20.1.1",
+    "aliquot": 2,
+    "analysis_type": "unknown",
+    "analyst_name": "Julia Ricci",
+    "arar_mapping": {
+        "Ar36": "Ar36",
+        "Ar37": "Ar37",
+        "Ar38": "Ar38",
+        "Ar39": "Ar39",
+        "Ar40": "Ar40"
+    },
+    "baseline_modifiers": {
+        "CDD": {
+            "function": "4e-8*x+2e-5",
+            "function_err": "countingstatistics",
+            "variable": "ar40 + ar39"
+        }
+    },
+    "collection_version": "2.0:2.1",
+    "comment": "J:1 / Gms - 52.1 mg",
+    "conditionals": [
+        {
+            "analysis_types": [],
+            "frequency": 2,
+            "hash_id": -1580044420183206900,
+            "level": null,
+            "location": "scripts/conditionals/Argon_36.yaml",
+            "ntrips": 1,
+            "start_count": 120,
+            "teststr": "Ar37>=25.0"
+        },
+        {
+            "analysis_types": [],
+            "frequency": 2,
+            "hash_id": -9201450526561669085,
+            "level": null,
+            "location": "scripts/conditionals/Argon_36.yaml",
+            "ntrips": 1,
+            "start_count": 15,
+            "teststr": "Ar37>=50.0"
+        },
+        {
+            "analysis_types": [],
+            "frequency": 2,
+            "hash_id": -3720907282145872644,
+            "level": null,
+            "location": "scripts/conditionals/Argon_36.yaml",
+            "ntrips": 1,
+            "start_count": 120,
+            "teststr": "Ar37>=15.0"
+        },
+        {
+            "analysis_types": [],
+            "frequency": 2,
+            "hash_id": 1832379669067591072,
+            "level": null,
+            "location": "scripts/conditionals/Argon_36.yaml",
+            "ntrips": 1,
+            "start_count": 10,
+            "teststr": "Ar40>=4800.0"
+        },
+        {
+            "analysis_types": [],
+            "frequency": 2,
+            "hash_id": 5106369534267349155,
+            "level": null,
+            "location": "scripts/conditionals/Argon_36.yaml",
+            "ntrips": 1,
+            "start_count": 210,
+            "teststr": "Ar36>=8.0"
+        },
+        {
+            "analysis_types": [],
+            "frequency": 2,
+            "hash_id": 2218669963624701878,
+            "level": null,
+            "location": "scripts/conditionals/Argon_36.yaml",
+            "ntrips": 1,
+            "start_count": 120,
+            "teststr": "Ar36>=13.0"
+        },
+        {
+            "analysis_types": [],
+            "frequency": 2,
+            "hash_id": -5497258702018443320,
+            "level": null,
+            "location": "scripts/conditionals/Argon_36.yaml",
+            "ntrips": 1,
+            "start_count": 20,
+            "teststr": "Ar36>=15.0"
+        },
+        {
+            "analysis_types": [],
+            "frequency": 1,
+            "hash_id": -7554872553021242017,
+            "level": 10,
+            "location": "setupfiles/spectrometer/default_conditionals.yaml",
+            "ntrips": 1,
+            "start_count": 3,
+            "teststr": "Ar40>4800.0"
+        },
+        {
+            "analysis_types": [
+                "blank_air",
+                "unknown",
+                "air",
+                "cocktail",
+                "ic",
+                "blank_unknown",
+                "blank_cocktail",
+                "blank"
+            ],
+            "frequency": 5,
+            "hash_id": -3247912444076930728,
+            "level": 10,
+            "location": "setupfiles/spectrometer/default_conditionals.yaml",
+            "ntrips": 3,
+            "start_count": 0,
+            "teststr": "H1.bs<-15.0"
+        },
+        {
+            "analysis_types": [
+                "cocktail"
+            ],
+            "frequency": 5,
+            "hash_id": 149443925704792595,
+            "level": 10,
+            "location": "setupfiles/spectrometer/default_conditionals.yaml",
+            "ntrips": 3,
+            "start_count": 20,
+            "teststr": "Ar40<500.0"
+        },
+        {
+            "analysis_types": [
+                "air"
+            ],
+            "frequency": 5,
+            "hash_id": -63716106252415090,
+            "level": 10,
+            "location": "setupfiles/spectrometer/default_conditionals.yaml",
+            "ntrips": 3,
+            "start_count": 20,
+            "teststr": "Ar40<20.0"
+        },
+        {
+            "analysis_types": [
+                "air",
+                "unknown",
+                "cocktail",
+                "ic",
+                "blank_unknown",
+                "blank_air",
+                "blank_cocktail",
+                "blank"
+            ],
+            "frequency": 10,
+            "hash_id": -710991032166996100,
+            "level": 10,
+            "location": "setupfiles/spectrometer/default_conditionals.yaml",
+            "ntrips": 1,
+            "start_count": 0,
+            "teststr": "Ar36.bs_corrected>10.0"
+        },
+        {
+            "analysis_types": [
+                "air"
+            ],
+            "frequency": 5,
+            "hash_id": -2802216108236391280,
+            "level": 10,
+            "location": "setupfiles/spectrometer/default_conditionals.yaml",
+            "ntrips": 1,
+            "start_count": 50,
+            "teststr": "between(Ar40/Ar36,285.0,305.0)"
+        },
+        {
+            "analysis_types": [],
+            "frequency": 3,
+            "hash_id": -1256489860882934680,
+            "level": 10,
+            "location": "setupfiles/spectrometer/default_conditionals.yaml",
+            "ntrips": 3,
+            "start_count": 0,
+            "teststr": "Ar40.bs_corrected>49500.0"
+        }
+    ],
+    "data_collection_commit": "2631dcfbe546883e2d19014072160359ed033f8e",
+    "data_reduction_software": "pychron 20.1.1",
+    "detectors": {
+        "AX": {
+            "deflection": 75.0,
+            "gain": 0.097423
+        },
+        "CDD": {
+            "deflection": 275.0,
+            "gain": 0.0
+        },
+        "H1": {
+            "deflection": 0.0,
+            "gain": 0.1
+        },
+        "H2": {
+            "deflection": 0.0,
+            "gain": 0.01
+        },
+        "L1": {
+            "deflection": 150.0,
+            "gain": 0.009775
+        },
+        "L2": {
+            "deflection": 300.0,
+            "gain": 0.01014
+        }
+    },
+    "environmental": {
+        "lab_humiditys": [
+            {
+                "device": "EnvironmentalMonitor",
+                "name": "Lab Hum.",
+                "pub_date": "2026-09-04T21:44:16",
+                "title": "iServer Hum.",
+                "value": 52.7
+            }
+        ],
+        "lab_pneumatics": [
+            {
+                "device": "AirPressure",
+                "name": "Pressure",
+                "pub_date": "2026-09-04T22:46:13",
+                "title": "Building",
+                "value": 95.8
+            },
+            {
+                "device": "AirPressure2",
+                "name": "Pressure2",
+                "pub_date": "2026-09-04T20:45:59",
+                "title": "Lab",
+                "value": 78.7
+            }
+        ],
+        "lab_temperatures": [
+            {
+                "device": "EnvironmentalMonitor",
+                "name": "Lab Temp.",
+                "pub_date": "2026-09-04T22:34:34",
+                "title": "iServer Temp.",
+                "value": 69.9
+            },
+            {
+                "device": "Chiller",
+                "name": "Coolant Temp.",
+                "pub_date": "2026-09-04T22:46:12",
+                "title": "Coolant",
+                "value": 16.1
+            }
+        ]
+    },
+    "experiment_queue_name": "CurrentExperiment",
+    "experiment_type": "Ar/Ar",
+    "extraction": "jan_diode.py",
+    "grainsize": "",
+    "hops": "",
+    "identifier": "72894",
+    "increment": 11,
+    "instrument_name": "",
+    "intensity_scalar": 0.0,
+    "irradiation": "NM-352",
+    "irradiation_level": "J",
+    "irradiation_position": 1,
+    "isotopes": {
+        "Ar36": {
+            "detector": "CDD",
+            "name": "Ar36",
+            "serial_id": "cdd",
+            "units": "fA"
+        },
+        "Ar37": {
+            "detector": "L2",
+            "name": "Ar37",
+            "serial_id": "thermo13",
+            "units": "fA"
+        },
+        "Ar38": {
+            "detector": "L1",
+            "name": "Ar38",
+            "serial_id": "b21",
+            "units": "fA"
+        },
+        "Ar39": {
+            "detector": "AX",
+            "name": "Ar39",
+            "serial_id": "thermo13",
+            "units": "fA"
+        },
+        "Ar40": {
+            "detector": "H1",
+            "name": "Ar40",
+            "serial_id": "thermo13",
+            "units": "fA"
+        },
+        "Ar41": {
+            "detector": "H2",
+            "name": "Ar41",
+            "serial_id": "b42",
+            "units": "fA"
+        }
+    },
+    "laboratory": "",
+    "latitude": 0.0,
+    "lithology": "",
+    "lithology_class": "",
+    "lithology_group": "",
+    "lithology_type": "",
+    "longitude": 0.0,
+    "mass_spectrometer": "Jan",
+    "material": "Groundmass",
+    "measurement": "jan_SyncExt_600_NC.py",
+    "meta_commit": "aae56c8f52f605d4a68550bec1d4440ef15fbfbf",
+    "note": "",
+    "post_equilibration": "jan_pump_extraction_line.py",
+    "post_measurement": "jan_pump_ms.py",
+    "principal_investigator": "Burrill, C",
+    "project": "Waesche",
+    "queue_conditionals_name": "---",
+    "repository_identifier": "Waesche",
+    "rlocation": "",
+    "sample": "MW-095",
+    "source": {
+        "emission": 315.44,
+        "trap": 197.923
+    },
+    "spec_sha": "db26b0269bc543cf2a990f16219e2a84366081af",
+    "time_zero_timestamp": "2026-09-04T22:33:50.533345",
+    "timestamp": "2026-09-04T22:46:01.933244",
+    "tripped_conditional": null,
+    "unit": "",
+    "username": "Julia Ricci",
+    "uuid": "2a8c9ad3-af73-4b5e-8e17-8ef938900ece",
+    "whiff_result": null
+}
